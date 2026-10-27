@@ -10,7 +10,7 @@ import InProgressIcon from "../../../assets/in-progress.svg";
 import NotStartedIcon from "../../../assets/not-started.svg";
 import CompletedIcon from "../../../assets/completed.svg";
 
-const db = drizzle(env.taskly_db);
+const db = drizzle(env.planr_db);
 
 if (Astro.request.method === "POST") {
   const formData = await Astro.request.formData();

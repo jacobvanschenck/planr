@@ -4,7 +4,7 @@
   "compatibility_flags": [
     "global_fetch_strictly_public"
   ],
-  "name": "taskly",
+  "name": "planr",
   "main": "@astrojs/cloudflare/entrypoints/server",
   "assets": {
     "directory": "./dist",
@@ -15,9 +15,9 @@
   },
   "d1_databases": [
     {
-      "binding": "taskly_db",
-      "database_name": "taskly-db",
-      "database_id": "c54628df-e6ca-4d61-9ad9-3b59cfa89cb3",
+      "binding": "planr_db",
+      "database_name": "planr-db",
+      "database_id": "0b611873-6281-4e56-bc6c-30be29658fef",
       "remote": true
     }
   ]

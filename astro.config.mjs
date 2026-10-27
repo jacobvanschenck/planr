@@ -13,8 +13,8 @@ export default defineConfig({
 		AstroPWA({
 			registerType: "autoUpdate",
 			manifest: {
-				name: "Taskly",
-				short_name: "Taskly",
+				name: "Planr",
+				short_name: "Planr",
 				description: "A simple task manager.",
 				theme_color: "#171717",
 				background_color: "#171717",
